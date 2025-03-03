@@ -247,7 +247,6 @@ Irregularities are violations of Legislation and Regulations of the Customs Admi
     <element xsi:type="archimate:CompositionRelationship" id="id-5da9467daf61499384b6db0315caab77" source="id-62753c7d26a34919af22c620e88c33a1" target="id-e16909f3b4f24cce8b497a88cf0db7ee"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-00189af903924c879ae6dcf2f79052e1" source="id-62753c7d26a34919af22c620e88c33a1" target="id-55f2908899964d8fa7181e2549eb2348"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-562313bb1e8f4395b425c92d1b1e74e7" source="id-62753c7d26a34919af22c620e88c33a1" target="id-446964afa2f54b4981d662617387d783"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-c3978e1e5f6c4c77b29645bcec79198d" source="id-62753c7d26a34919af22c620e88c33a1" target="a4336862-12b0-4488-bb2c-baf486b0d945"/>
   </folder>
   <folder name="Views" id="0db00be0-1dda-44cf-a3fa-09c015db96ca" type="diagrams">
     <folder name="Business" id="9a7f862a-3831-4724-97f5-b9c22c519580">
@@ -618,7 +617,7 @@ Irregularities are violations of Legislation and Regulations of the Customs Admi
         <child xsi:type="archimate:DiagramObject" id="f36e4312-8ebc-4c9f-bc16-28f784b756c1" targetConnections="944e9d16-bcfe-4e8c-91ee-46e398ac00d6" archimateElement="3d55d071-d8a0-495e-9ee6-d9f2a99d5fd7" type="1">
           <bounds x="348" y="33" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="58585f1a-777a-4f86-b8b9-6a2c88fa81c7" targetConnections="5c0851ee-b4d1-41bd-b9ad-8cbc3b23c706 id-05b4dc4e958b4785bdec0f617b7ca427" archimateElement="a4336862-12b0-4488-bb2c-baf486b0d945" type="1">
+        <child xsi:type="archimate:DiagramObject" id="58585f1a-777a-4f86-b8b9-6a2c88fa81c7" targetConnections="5c0851ee-b4d1-41bd-b9ad-8cbc3b23c706" archimateElement="a4336862-12b0-4488-bb2c-baf486b0d945" type="1">
           <bounds x="463" y="372" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="1cbb20ce-998c-46af-8c92-01dbe840dd1f" targetConnections="007c49f4-904e-4dcc-900b-1a6563cbb468" archimateElement="7064be79-aabe-4b46-9341-0462e06b867c" type="1">
@@ -691,18 +690,6 @@ Irregularities are violations of Legislation and Regulations of the Customs Admi
         </child>
         <child xsi:type="archimate:DiagramObject" id="5aec5178-99d6-441f-81f4-07808a5ff107" archimateElement="b3eca7fc-9913-4864-8029-cdaba59e94f1" type="1">
           <bounds x="211" y="33" width="120" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-dd58239c319942dc991f51c23753e933" archimateElement="id-62753c7d26a34919af22c620e88c33a1" type="1">
-          <bounds x="672" y="345" width="253" height="109"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-4a95ac0f48ce482ba0d7d340cc07500f" source="id-dd58239c319942dc991f51c23753e933" target="id-765712fb86fc4e56967e3801ee17f76b" archimateRelationship="id-562313bb1e8f4395b425c92d1b1e74e7"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-f234208ded364667ae1a97190d1ae402" source="id-dd58239c319942dc991f51c23753e933" target="id-f44fd70aa0364d1c92818c380817e896" archimateRelationship="id-5da9467daf61499384b6db0315caab77"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-05b4dc4e958b4785bdec0f617b7ca427" source="id-dd58239c319942dc991f51c23753e933" target="58585f1a-777a-4f86-b8b9-6a2c88fa81c7" archimateRelationship="id-c3978e1e5f6c4c77b29645bcec79198d"/>
-          <child xsi:type="archimate:DiagramObject" id="id-765712fb86fc4e56967e3801ee17f76b" targetConnections="id-4a95ac0f48ce482ba0d7d340cc07500f" archimateElement="id-446964afa2f54b4981d662617387d783">
-            <bounds x="132" y="48" width="85" height="37"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f44fd70aa0364d1c92818c380817e896" targetConnections="id-f234208ded364667ae1a97190d1ae402" archimateElement="id-e16909f3b4f24cce8b497a88cf0db7ee">
-            <bounds x="12" y="48" width="85" height="37"/>
-          </child>
         </child>
       </element>
     </folder>
